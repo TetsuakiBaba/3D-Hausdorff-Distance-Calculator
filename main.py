@@ -17,9 +17,10 @@ def hausdorff_distance(points1, points2):
 
 if __name__ == "__main__":
     # STLファイルからメッシュを読み込み
-    points1 = load_mesh('cube.stl')
-    points2 = load_mesh('sphere_3480.stl')
+    points1 = load_mesh('sphere_9024.stl')
+    points2 = load_mesh('sphere_28560.stl')
 
     # Hausdorff距離を計算
     dist = hausdorff_distance(points1, points2)
-    print(f'Hausdorff Distance between test1.stl and test2.stl: {dist}')
+    print(f'Hausdorff Distance : {dist}')
+    

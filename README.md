@@ -52,3 +52,21 @@ python main.py
 
 ## Sample STL Files
 You can use the provided sample STL files to test the script. The `cube.stl` and `sphere_[mesh_size].stl` files contain two simple 3D models for testing the Hausdorff distance calculation.
+
+### Results of samples files
+- cube.stl and cube.stl
+```
+Hausdorff Distance : 0.0
+```
+- cube.stl and sphere_3840.stl
+```
+Hausdorff Distance : 25.00000704946435
+```
+- sphere3480.stl and sphere_28560.stl
+```
+Hausdorff Distance : 1.7884412788761033
+```
+- sphere_9024.stl and sphere_28560.stl: takes a few miniutes to calculate
+```
+Hausdorff Distance : 1.105467263395086
+```
