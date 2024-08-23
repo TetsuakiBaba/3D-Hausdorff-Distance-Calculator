@@ -3,6 +3,9 @@
 ## Description
 `3D-Hausdorff-Distance-Calculator` is a Python tool designed to calculate the Hausdorff distance between two 3D models provided in STL format. The Hausdorff distance is a measure of the maximum discrepancy between two sets of points, making it useful for comparing 3D shapes, particularly when evaluating the fidelity of 3D printed objects to their original designs.
 
+> [!NOTE]
+> The calculation will differ depending on the orientation of the model, so be sure to calculate with the same orientation.
+
 ## Features
 - Load and process STL files to extract 3D mesh data.
 - Calculate the Hausdorff distance between two 3D models.
