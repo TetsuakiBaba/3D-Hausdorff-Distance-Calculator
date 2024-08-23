@@ -38,7 +38,7 @@ conda activate hausdorff-env
 
 4. Install the required packages:
 ```bash
-pip install numpy-stl scipy
+pip install numpy scipy numpy-stl
 ```
 
 
