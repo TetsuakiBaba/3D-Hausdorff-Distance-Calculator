@@ -36,8 +36,8 @@ def hausdorff_distance_chunked(points1, points2, chunk_size=1000):
 
 if __name__ == "__main__":
     # STLファイルからメッシュを読み込み（必要ならサンプリングを指定）
-    points1 = load_mesh('l_raw.stl', sample_size=None)
-    points2 = load_mesh('l_rescan1.stl', sample_size=None)
+    points1 = load_mesh('cube.stl', sample_size=None)
+    points2 = load_mesh('cube.stl', sample_size=None)
 
     # チャンク処理によるHausdorff距離の計算
     dist = hausdorff_distance_chunked(points1, points2)
